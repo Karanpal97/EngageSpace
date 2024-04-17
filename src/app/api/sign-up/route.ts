@@ -80,7 +80,7 @@ export async function POST(request: Request): Promise<ApiResponce> {
         console.log("the error in the ", error);
         return {
             success: false,
-            message: "there is error in the sending of error",
+            message: "there is error in the sending of mail",
             status: 500,
         };
     }
