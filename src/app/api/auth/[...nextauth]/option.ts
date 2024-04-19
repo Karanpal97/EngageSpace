@@ -4,7 +4,6 @@ import bcrypt from "bcrypt";
 import dbConnection from "@/lib/db.connect";
 
 import userModel from "@/model/user";
-import { pages } from "next/dist/build/templates/app-page";
 
 export const authoptions: NextAuthOptions = {
     providers: [
